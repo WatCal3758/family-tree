@@ -18,10 +18,16 @@ for(let i = 0; i < family.length; i++)
         console.log(family[i].favoriteSong);
     }
 
+
+function tvShow(person)
+{
+    person.favoriteTVShow = "Blackish";
+    console.log(person.favoriteTVShow);
+}
+
 for(let j = 0; j < family.length; j++)
     {
-        family[j].favoriteTVShow = "Blackish";
-        console.log(family[j].favoriteTVShow);
+        tvShow(family[j]);
     }
 
 
